@@ -1,0 +1,26 @@
+#about {
+  .content {
+    h2 {
+      text-align: center;
+    }
+  }
+  .about-container {
+    display: block;
+    @media screen and (min-width: 1080px) {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      
+    }
+  }
+  .about-container-left {
+    flex-basis: 100%;
+    background: #DEF0FF;
+    padding: 30px 30px;
+    li {
+      font-style: italic;
+      line-height: 3;
+    }
+  }
+  
+}
